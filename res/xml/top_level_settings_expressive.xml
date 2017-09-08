@@ -48,6 +48,14 @@
         android:order="-120"
         android:key="top_level_personalize_category">
         <com.android.settings.widget.HomepagePreference
+            android:fragment="tokyo.witaqua.settings.WitAquaSettings"
+            android:icon="@drawable/ic_settings_witaqua"
+            android:key="top_level_witaqua"
+            android:order="-70"
+            android:title="@string/witaqua_dashboard_title"
+            settings:controller="tokyo.witaqua.settings.TopLevelWitAquaSettingsPreferenceController"/>
+
+        <com.android.settings.widget.HomepagePreference
             android:fragment="com.android.settings.applications.AppDashboardFragment"
             android:icon="@drawable/ic_homepage_apps"
             android:key="top_level_apps"
