@@ -73,5 +73,9 @@
 
     <!-- Reset Felica -->
     <string name="felica_reset_title">Erase data for Osaifu-Keitai services</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
+    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
 </resources>
 
