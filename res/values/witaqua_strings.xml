@@ -171,5 +171,9 @@
     <!-- USB configuration -->
     <string name="usb_default_config_title">USB configuration</string>
     <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
+
+    <!-- Reset Felica -->
+    <string name="felica_reset_title">Reset Felica</string>
+    <string name="felica_reset_button">Reset</string>
 </resources>
 
